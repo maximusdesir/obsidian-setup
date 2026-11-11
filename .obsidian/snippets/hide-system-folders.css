@@ -1,0 +1,11 @@
+.nav-folder:has(> .nav-folder-title[data-path="Meta/Templates"]) {
+  display: none;
+}
+
+.nav-folder:has(> .nav-folder-title[data-path="Meta/Attachments"]) {
+  display: none;
+}
+
+.nav-file:has(> .nav-file-title[data-path="CLAUDE.md"]) {
+  display: none;
+}

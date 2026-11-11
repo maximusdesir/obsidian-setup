@@ -1,0 +1,7 @@
+# Per-device state: open tabs, recent files
+.obsidian/workspace*.json
+# Contains a personal search-engine preferences token
+.obsidian/webviewer.json
+.obsidian/plugins/*/reference-files/
+.trash/
+.DS_Store

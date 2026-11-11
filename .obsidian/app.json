@@ -1,0 +1,10 @@
+{
+  "alwaysUpdateLinks": true,
+  "openBehavior": "file:",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "Notes",
+  "attachmentFolderPath": "Meta/Attachments",
+  "vimMode": true,
+  "promptDelete": false,
+  "userIgnoreFilters": null
+}

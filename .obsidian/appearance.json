@@ -1,0 +1,15 @@
+{
+  "accentColor": "#c2c2c2",
+  "cssTheme": "Minimal",
+  "enabledCssSnippets": [
+    "graph-tag-color",
+    "bigger-headings",
+    "hide-system-folders"
+  ],
+  "interfaceFontFamily": "",
+  "textFontFamily": "",
+  "theme": "obsidian",
+  "monospaceFontFamily": "",
+  "nativeMenus": true,
+  "showRibbon": false
+}

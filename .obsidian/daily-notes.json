@@ -1,0 +1,5 @@
+{
+  "folder": "Meta/Sessions",
+  "template": "Meta/Templates/Session",
+  "format": "YYYY-MM-DD"
+}

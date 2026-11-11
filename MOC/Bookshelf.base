@@ -1,0 +1,19 @@
+filters:
+  not:
+    - file.inFolder("Meta/Templates")
+views:
+  - type: cards
+    name: Bookshelf
+    filters:
+      and:
+        - note.type == "book"
+    order:
+      - file.name
+      - author
+    sort:
+      - property: file.name
+        direction: ASC
+    image: note.cover
+    imageAspectRatio: 1.5
+    imageFit: contain
+    cardSize: 180

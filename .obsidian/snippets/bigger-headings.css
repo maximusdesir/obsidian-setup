@@ -1,0 +1,104 @@
+/* Bigger headings for the Minimal theme.
+   Minimal ships a very flat heading scale (h1 is only 1.125em).
+   This restores a more conventional hierarchy. Adjust via Style Settings. */
+
+/* @settings
+
+name: Bigger Headings
+id: bigger-headings
+settings:
+    -
+        id: h1-size
+        title: H1 size
+        type: variable-text
+        default: 1.9em
+    -
+        id: h1-weight
+        title: H1 weight
+        type: variable-number-slider
+        default: 700
+        min: 100
+        max: 900
+        step: 100
+    -
+        id: h2-size
+        title: H2 size
+        type: variable-text
+        default: 1.55em
+    -
+        id: h2-weight
+        title: H2 weight
+        type: variable-number-slider
+        default: 600
+        min: 100
+        max: 900
+        step: 100
+    -
+        id: h3-size
+        title: H3 size
+        type: variable-text
+        default: 1.3em
+    -
+        id: h3-weight
+        title: H3 weight
+        type: variable-number-slider
+        default: 600
+        min: 100
+        max: 900
+        step: 100
+    -
+        id: h4-size
+        title: H4 size
+        type: variable-text
+        default: 1.12em
+    -
+        id: h4-weight
+        title: H4 weight
+        type: variable-number-slider
+        default: 600
+        min: 100
+        max: 900
+        step: 100
+    -
+        id: h5-size
+        title: H5 size
+        type: variable-text
+        default: 1em
+    -
+        id: h5-weight
+        title: H5 weight
+        type: variable-number-slider
+        default: 600
+        min: 100
+        max: 900
+        step: 100
+    -
+        id: h6-size
+        title: H6 size
+        type: variable-text
+        default: 0.9em
+    -
+        id: h6-weight
+        title: H6 weight
+        type: variable-number-slider
+        default: 600
+        min: 100
+        max: 900
+        step: 100
+*/
+
+body {
+  --h1-size: 1.9em;
+  --h2-size: 1.55em;
+  --h3-size: 1.3em;
+  --h4-size: 1.12em;
+  --h5-size: 1em;
+  --h6-size: 0.9em;
+
+  --h1-weight: 700;
+  --h2-weight: 600;
+  --h3-weight: 600;
+  --h4-weight: 600;
+  --h5-weight: 600;
+  --h6-weight: 600;
+}
