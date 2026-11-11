@@ -32,6 +32,6 @@
 		"/^https:\\/\\/pocketcasts\\.com\\//"
 	],
 	"noteNameFormat": "{{title|safe_name}}",
-	"path": "00 - Inbox/web-clippers",
+	"path": "Library",
 	"context": "{{content}}"
 }

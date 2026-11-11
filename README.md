@@ -52,7 +52,7 @@ grid of covers.
 ## Web Clipper
 
 `Meta/Web Clipper/` has templates for the [Obsidian Web Clipper] browser
-extension. Import them from the extension's settings.
+extension. Import them from the extension's settings. All three save into `Library/`.
 
 - `podcast.json` works on Apple Podcasts, Spotify, Overcast and Pocket Casts.
   It uses the clipper's AI interpreter to fill in a summary and the episode

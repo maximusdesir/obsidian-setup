@@ -44,5 +44,5 @@
 		"/^https:\\/\\/[a-z-.]+\\.wikipedia\\.org\\/wiki\\/.*$/"
 	],
 	"noteNameFormat": "{{title}}",
-	"path": "Clippings"
+	"path": "Library"
 }
