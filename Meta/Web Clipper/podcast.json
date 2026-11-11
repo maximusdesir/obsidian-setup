@@ -1,0 +1,37 @@
+{
+	"schemaVersion": "0.1.0",
+	"name": "Podcast",
+	"behavior": "create",
+	"noteContentFormat": "# Summary\n\n{{\"Summarize the key takeaways from this podcast episode in bullet points. Any references to people, places, or books should be in [[wikilinks]] format.\"}}\n\n---\n\n# Episode Details\n\n{{\"Extract the episode details from the page: show name, guest(s), and duration. Format as a bullet list with bold labels like **Show**, **Guest(s)**, **Duration**.\"}}\n\n---\n\n# Notes\n- \n\n---\n\n# Quotes\n> \n\n---\n\n# Related\n- ",
+	"properties": [
+		{
+			"name": "author",
+			"value": "{{author|wikilink}}",
+			"type": "multitext"
+		},
+		{
+			"name": "source",
+			"value": "{{url}}",
+			"type": "text"
+		},
+		{
+			"name": "created",
+			"value": "{{date}}",
+			"type": "date"
+		},
+		{
+			"name": "tags",
+			"value": "clipping, podcast",
+			"type": "multitext"
+		}
+	],
+	"triggers": [
+		"/^https:\\/\\/podcasts\\.apple\\.com\\//",
+		"/^https:\\/\\/open\\.spotify\\.com\\/(?:episode|show)\\//",
+		"/^https:\\/\\/overcast\\.fm\\//",
+		"/^https:\\/\\/pocketcasts\\.com\\//"
+	],
+	"noteNameFormat": "{{title|safe_name}}",
+	"path": "00 - Inbox/web-clippers",
+	"context": "{{content}}"
+}

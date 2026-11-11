@@ -40,6 +40,7 @@ Courses/       one hub note per course that links into Notes/
 Projects/
 Meta/
   Templates/   Note, MOC, Book, Source, Library Item
+  Web Clipper/ browser clipper templates
   Sessions/    daily notes, YYYY-MM-DD
   Attachments/ images and PDFs
 ```
@@ -47,6 +48,19 @@ Meta/
 The templates only set frontmatter (`type`, `tags`, and sometimes `status`,
 `source` or `author`). `Bookshelf.base` shows every `type: book` note as a
 grid of covers.
+
+## Web Clipper
+
+`Meta/Web Clipper/` has templates for the [Obsidian Web Clipper] browser
+extension. Import them from the extension's settings.
+
+- `podcast.json` works on Apple Podcasts, Spotify, Overcast and Pocket Casts.
+  It uses the clipper's AI interpreter to fill in a summary and the episode
+  details, and leaves Notes and Quotes empty for you to write.
+- `youtube-clipper.json` saves the embedded video, channel and upload date.
+- `wikipedia-clipper.json` saves the article body without navboxes.
+
+[Obsidian Web Clipper]: https://obsidian.md/clipper
 
 ## Plugins
 
