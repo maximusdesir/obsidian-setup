@@ -1,79 +1,33 @@
 {
-  "templater-obsidian:999 Templates/Class Template.md": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "\\"
-    }
-  ],
-  "templater-obsidian:999 Templates/Note Template.md": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "="
-    }
+  "insert-template": [
+    { "modifiers": ["Mod"], "key": "T" }
   ],
   "workspace:new-tab": [],
   "file-explorer:new-folder": [
-    {
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ],
-      "key": "N"
-    }
-  ],
-  "templater-obsidian:insert-templater": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "T"
-    }
-  ],
-  "insert-template": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "T"
-    }
-  ],
-  "vim-toggle:toggle-vim": [
-    {
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ],
-      "key": "\\"
-    }
-  ],
-  "obsidian-tasks-plugin:edit-task": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "T"
-    }
+    { "modifiers": ["Alt", "Mod"], "key": "N" }
   ],
   "app:toggle-left-sidebar": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "1"
-    }
+    { "modifiers": ["Alt"], "key": "1" }
   ],
   "app:toggle-right-sidebar": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "2"
-    }
+    { "modifiers": ["Alt"], "key": "2" }
+  ],
+  "workspace:split-vertical": [
+    { "modifiers": ["Mod"], "key": "\\" }
+  ],
+  "workspace:split-horizontal": [
+    { "modifiers": ["Mod", "Alt"], "key": "\\" }
+  ],
+  "editor:focus-left": [
+    { "modifiers": ["Alt"], "key": "H" }
+  ],
+  "editor:focus-bottom": [
+    { "modifiers": ["Alt"], "key": "J" }
+  ],
+  "editor:focus-top": [
+    { "modifiers": ["Alt"], "key": "K" }
+  ],
+  "editor:focus-right": [
+    { "modifiers": ["Alt"], "key": "L" }
   ]
 }

@@ -85,6 +85,20 @@ are also installed in case I want to switch.
 
 [Minimal]: https://github.com/kepano/obsidian-minimal
 
+## Hotkeys
+
+| Keys | Action |
+| --- | --- |
+| `Ctrl+\` | Split right |
+| `Ctrl+Alt+\` | Split down |
+| `Alt+H/J/K/L` | Move focus left, down, up, right (Vim directions) |
+| `Ctrl+W` | Close the pane (Obsidian default) |
+| `Alt+1` / `Alt+2` | Toggle left / right sidebar |
+| `Ctrl+T` | Insert template |
+| `Ctrl+Alt+N` | New folder |
+
+On macOS, `Ctrl` is `Cmd`.
+
 ## What's Not Here
 
 My notes and attachments aren't included, and neither is `workspace.json`,
