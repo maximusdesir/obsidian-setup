@@ -22,7 +22,7 @@ I picked this up from Chris Pomeroy's video
 ## Structure
 
 Every new note goes into one **flat `Notes/` folder**. I find things
-through links, MOCs, `and Shift+Ctrl+F`, so I almost never touch the folder tree.
+through links, MOCs, and `Shift+Ctrl+F`, so I almost never touch the folder tree.
 
 ```
 Notes/         concept notes, all in one place
@@ -33,7 +33,6 @@ Projects/
 Meta/
   Templates/   Note, MOC, Book, Source, Library Item
   Web Clipper/ browser clipper templates
-  Sessions/    daily notes, YYYY-MM-DD
   Attachments/ images and PDFs
 ```
 
