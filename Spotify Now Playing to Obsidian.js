@@ -7,8 +7,8 @@ const CLIENT_ID = "YOUR_SPOTIFY_CLIENT_ID";
 const CLIENT_SECRET = "YOUR_SPOTIFY_CLIENT_SECRET";
 const REDIRECT_URI = "http://127.0.0.1:8888/callback"; // must match the Spotify dashboard exactly
 const VAULT_BOOKMARK = "Obsidian";   // Scriptable Settings > File Bookmarks name (vault root)
-const VAULT_NAME = "Obsidian";       // vault name in Obsidian (used to open the note)
-const FOLDER = "Clippings/Podcasts";
+const VAULT_NAME = "VAULT";       // vault name in Obsidian (used to open the note)
+const FOLDER = "Notes";
 const MARKET = "US";
 const OPEN_AFTER_SAVE = true;
 // ----------------
