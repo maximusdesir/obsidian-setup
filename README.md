@@ -45,13 +45,13 @@ grid of covers.
 `Meta/Web Clipper/` has templates for the [Obsidian Web Clipper] browser
 extension. Import them from the extension's settings. All three save into `Library/`.
 
-- `podcast.json` saves Spotify podcasts from web, though I usually use [Spotify Podcast Clipper](#spotify-clipper)
+- `podcast.json` saves Spotify podcasts from web, though I usually use [Spotify Podcast Clipper](#spotify-podcast-clipper-ios)
 - `youtube-clipper.json` saves the embedded video, channel and upload date.
 - `wikipedia-clipper.json` saves the article body without navboxes.
 
 [Obsidian Web Clipper]: https://obsidian.md/clipper
 
-## Spotify Podcast Clipper (iOS) {spotify-clipper}
+## Spotify Podcast Clipper (iOS)
 
 `Spotify Now Playing to Obsidian.js` is a [Scriptable] script for my phone.
 It does what the Web Clipper does, but for whatever podcast I'm playing in
